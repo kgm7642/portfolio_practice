@@ -2,6 +2,7 @@
 
 body {
   background-color: #fff;
+  width: 100%;
   color: #333;
   font-size: 16px;
   font-weight: 400;
@@ -233,13 +234,13 @@ header .sub-menu ul.menu li a.moved:hover {
   margin:0 auto 2rem;
   width: 100%;
   /* max-width: 71.25rem; */
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   margin: 2 0 0 auto;
 }
 
 .aboutme .aboutme_header{
   font-family: Black Han Sans,sans-serif;
-  padding: 45px 0 30px 0 ;
+  padding: 45px 0 40px 0 ;
   font-weight: 200;
   font-size: 3rem;
   text-align: center;
@@ -261,7 +262,6 @@ header .sub-menu ul.menu li a.moved:hover {
 }
 
 .aboutme .aboutme_description .aboutme_infos .info_wraper{
-  
   display:flex;
   width: 50%;
   margin: 0 auto;
@@ -291,7 +291,7 @@ header .sub-menu ul.menu li a.moved:hover {
   margin:0 auto 0;
   width: 100%;
   /* max-width: 71.25rem; */
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   margin: 2 0 0 auto;
   height: 70rem;
   background-color: #CED3DC;
@@ -349,7 +349,7 @@ header .sub-menu ul.menu li a.moved:hover {
   margin:0 auto 0;
   width: 100%;
   /* max-width: 71.25rem; */
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   margin: 2 0 0 auto;
   height: 35rem;
   background-color: #333;
@@ -421,7 +421,7 @@ header .sub-menu ul.menu li a.moved:hover {
   margin:0 auto 0;
   width: 100%;
   /* max-width: 71.25rem; */
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   margin: 2 0 0 auto;
   height: auto;
   background-color: #FF9D1B;
