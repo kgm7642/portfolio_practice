@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Lodash js.. .throttle method -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js" integrity="sha512-1OG9UO4krPizjtz/c9iDbjCqtXznBYdJeD4ccPaYfJHzC6F1qoQ3P1bgQ3J8lgCoK5qGVCqsY4+/RKjLDzITVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- gsap js animation library -->
+
+
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="Header">
+      <div class="inner">
+        <a href="/index.html" class="maintitle"> Kgm's portfolio </a>
+        <div class="sub-menu">
+          <ul class="menu">
+            <li id="AboutMe">
+              <a href="javascript:void(0)">About Me</a>
+            </li>
+            <li id="SkillInventory">
+              <a href="javascript:void(0)">Skill Inventory</a>
+            </li>
+            <li id="Archive">
+              <a href="javascript:void(0)">Archive</a>
+            </li>
+            <li id="Projects">
+              <a href="javascript:void(0)">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- SUMMARY SECTION -->
+    <section class="summary">
+      <div class="inner">
+        <div class="summary_Header">
+          - 강경민의 웹 개발자 포트폴리오 -
+          <br>
+        </div>
+        <div class="summary_description">
+          <br>
+          <p>안녕하세요. 웹 개발자가 되고 싶은 강경민입니다.</p>
+          <p>어제보다 더 나은 내가 되기 위해 노력하겠습니다.</p>
+        </div>
+        <button class="btn" id="see_more">더 알아보기 ↓</button>
+        <br>
+      </div>
+    </section>
+
+    <!-- ABOUTME SECTION -->
+    <section class="aboutme" id="AboutMe_section">
+      <div class="inner">
+        <div class="aboutme_header">ABOUT ME</div>
+        <div class="aboutme_description">
+          <div class="aboutme_infos">
+            <div class="info_wraper">
+              <div class="info_title">이름</div>
+              <div class="info_des">강경민</div>
+            </div>
+
+            <div class="info_wraper">
+              <div class="info_title">생년월일</div>
+              <div class="info_des">97.03.31</div>
+            </div>
+
+            <div class="info_wraper">
+              <div class="info_title">연락처</div>
+              <div class="info_des">+82 10-2926-7642</div>
+            </div>
+
+            <div class="info_wraper">
+              <div class="info_title">이메일</div>
+              <div class="info_des">kgm7642@naver.com</div>
+            </div>
+
+            <div class="info_wraper">
+              <div class="info_title">학력</div>
+              <div class="info_des">한라대학교(정보통신소프트웨어학과)</div>
+            </div>
+
+            <div class="info_wraper">
+              <div class="info_title">자격증</div>
+              <div class="info_des">정보처리기사,  sqld</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLINVENTORY SECTION -->
+    <section class="skillinventory" id="skillinventory_section">
+      <div class="inner">
+        <div class="skillinventory_title">Skill Inventory</div>
+        <div class="skillinventory_container">
+          <div class="skillinventory_box">
+            <div class="skillinventory_box_title">Front-End</div>
+            <div class="skillinventory_box_des">
+              <img
+                src="/images/skill_images/htmlcssjs.png"
+                height="120" style="margin-bottom: 20px;"
+              />
+              <img
+                src="/images/skill_images/thymleaf.png"
+                height="120"
+              />
+            </div>
+          </div>
+          <div class="skillinventory_box">
+            <div class="skillinventory_box_title">Back-End</div>
+            <div class="skillinventory_box_des">
+              <img
+                src="/images/skill_images/java.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+              <img
+                src="/images/skill_images/aws.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+              <img
+                src="/images/skill_images/spring.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+              <img
+                src="/images/skill_images/springboot.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+            </div>
+          </div>
+          <div class="skillinventory_box">
+            <div class="skillinventory_box_title">Version Control</div>
+            <div class="skillinventory_box_des">
+              <img
+                src="/images/skill_images/git.png"
+                height="120" style="width: 180px; object-fit: contain;
+                margin-top: 40px;"
+              />
+              <img
+                src="/images/skill_images/github.png"
+                height="120" style="width: 180px; object-fit: contain;margin-top: 40px;"
+              />
+            </div>
+          </div>
+          <div class="skillinventory_box">
+            <div class="skillinventory_box_title">Tool</div>
+            <div class="skillinventory_box_des">
+              <img
+                src="/images/skill_images/ecilpse.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+              <img
+                src="/images/skill_images/vsc.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />
+              <img
+                src="/images/skill_images/IntelliJ.png"
+                height="120" style="width: 150px; object-fit: contain;"
+              />              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCHIVE SECTION -->
+    <section class="archive" id="archive_section">
+      <div class="inner">
+        <div class="archive_title">Archive</div>
+        <div class="archive_containor">
+          <div class="archive_box">
+            <div class="archive_box_title">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25657.png"
+                height="40"
+              />
+              <span class="textmiddle">Github</span>
+            </div>
+            <div class="archive_box_des">
+              <a href="https://github.com/kgm7642" target="_blank">https://github.com/kgm7642</a>
+              <br>
+              소스 저장소입니다.
+              <br>
+              <br>
+              <ul>
+                <li>현재까지 해온 프로젝트들</li>
+                <br>
+                <li>혼자 공부한 내용들</li>
+                <br>
+                <li>교육과정 중 들은 수업들의 소스코드</li>
+              </ul>
+            </div>
+          </div>
+          <div class="archive_box">
+            <div class="archive_box_title">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3959/3959542.png"
+                height="40"
+              />
+              <span class="textmiddle">Blog</span>
+            </div>
+            <div class="archive_box_des">
+              <a href="https://blog.naver.com/kgm7642" target="_blank">https://blog.naver.com/kgm7642</a>
+              <br>
+              공부한 모든 것을 정리하는 블로그입니다.
+              <br>
+              <br>
+              <ul>
+                <li>교육과정 중 학습한 내용 정리</li>
+                <br>
+                <li>혼자 공부한 내용 정리</li>
+                <br>
+                <li>인강 내용 정리</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects_section">
+      <div class="inner">
+        <div class="project">
+          <div class="project_title">Projects</div>
+          <div class="project_containor">
+            <div class="project_box">
+              <div class="project_box_title">JSP_together</div>
+              <div class="project_box_subtitle">220111 ~ 220206</div>
+              <div class="project_box_des">
+                <div class="project_box_des_left">
+                  <img
+                    src="/images/project_images/jspmain.PNG" 
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="project_box_des_right">
+                  <p>JSP를 사용한 모임 인원 모집 페이지입니다.</p>
+                  <br>
+                  <p>
+                    JAVA를 학습한 후 처음으로 진행한 프로젝트이며, 팀 프로젝트입니다. 직접 DB를 구축하며 DB에 대해 학습, 전반적인 Servlet, JSP에 대하여 학습했습니다.
+                  </p>
+                  <br>
+                  <div class="project_box_des_right_info">
+                    <br>
+                    <div class="info_key">Github</div>
+                    <div class="info_value">
+                      <a
+                        href="https://github.com/kgm7642/JSP_MOIM_project"
+                        target="_blank"
+                        >CLick to repository</a
+                      >
+                    </div>
+                    <br><br>
+                    <div class="info_key">skill</div>
+                    <div class="info_value">
+                      <p>Html Css Javasciprt</p>
+                      <p>JSP MyBatis Oracle</p>
+                      <p>Ajax json jQuery</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_containor">
+            <div class="project_box">
+              <div class="project_box_title">Spring_together</div>
+              <div class="project_box_subtitle">220501 ~ 220520</div>
+              <div class="project_box_des">
+                <div class="project_box_des_left">
+                  <img
+                    src="/images/project_images/jspmain.PNG"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="project_box_des_right">
+                  <p>스프링을 사용한 모임 인원 모집 페이지입니다.</p>
+                  <br>
+                  <p>
+                    스프링을 학습한 후 JSP로 제작했던 together 페이지를 스프링으로 이관했습니다. 이 과정에서 웹소켓, 메일api 등을 학습했습니다.
+                  </p>
+                  <br>
+                  <div class="project_box_des_right_info">
+                    <br>
+                    <div class="info_key">Github</div>
+                    <div class="info_value">
+                      <a
+                        href="https://github.com/kgm7642/MoimProject_spring"
+                        target="_blank"
+                        >CLick to repository</a
+                      >
+                    </div>
+                    <br><br>
+                    <div class="info_key">skill</div>
+                    <div class="info_value">
+                      <p>Html Css Javasciprt</p>
+                      <p>JSP MyBatis Oracle</p>
+                      <p>Ajax json jQuery</p>
+                      <p>SPRING WebSocket</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_containor">
+            <div class="project_box">
+              <div class="project_box_title">SpringBoot_space</div>
+              <div class="project_box_subtitle">
+                220912 ~ 221113
+              </div>
+              <div class="project_box_des">
+                <div class="project_box_des_left">
+                  <img
+                  src="/images/project_images/springboot.png"
+                  alt=""
+                  width="100%"
+                />
+                </div>
+                <div class="project_box_des_right">
+                  <p>스프링부트를 사용한 스터디 모집 페이지입니다.</p>
+                  <br>
+                  <p>
+                    스프링부트를 학습하며 조금 더 깊게 이해하기 위해 개발하게 되었습니다. 스프링의 복잡한 설정들을 스프링부트에서는 보다 간편하게 할 수 있다는 것을 알게되었습니다.
+                  </p>
+                  <br>
+                  <div class="project_box_des_right_info">
+                    <br>
+                    <div class="info_key">Github</div>
+                    <div class="info_value">
+                      <a
+                        href="https://github.com/kgm7642/SpringBoot_Project"
+                        target="_blank"
+                        >CLick to repository</a
+                      >
+                    </div>
+                    <br><br>
+                    <div class="info_key">skill</div>
+                    <div class="info_value">
+                      <p>Html Css Javasciprt</p>
+                      <p>Thymeleaf MyBatis Oracle</p>
+                      <p>Ajax json jQuery WebSocket</p>
+                      <p>SpringBoot SpringSecurity</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_containor">
+            <div class="project_box">
+              <div class="project_box_title">API_library</div>
+              <div class="project_box_subtitle">
+                230201 ~ 230213
+              </div>
+              <div class="project_box_des">
+                <div class="project_box_des_left">
+                  <img
+                  src="/images/project_images/api.png"
+                  alt=""
+                  width="100%"
+                />
+                </div>
+                <div class="project_box_des_right">
+                  <p>스프링부트를 사용한 도서관리 페이지입니다.</p>
+                  <br>
+                  <p>
+                    간단한 CRUD 기능을 할 수 있는 API를 스프링부트를 통해 개발했습니다. 또한 배포를 진행하며 간단하게 리눅스 언어에 대해 학습했습니다.
+                  </p>
+                  <br>
+                  <div class="project_box_des_right_info">
+                    <br>
+                    <div class="info_key">Github</div>
+                    <div class="info_value">
+                      <a
+                        href="https://github.com/kgm7642/library-app"
+                        target="_blank"
+                        >CLick to repository</a
+                      >
+                    </div>
+                    <br><br>
+                    <div class="info_key">Demo</div>
+                    <div class="info_value">
+                      <a href="http://3.39.225.183:8080/v1/index.html" target="_blank"
+                        >CLick to demopage</a
+                      >
+                    </div>
+                    <br><br>
+                    <div class="info_key">skill</div>
+                    <div class="info_value">
+                      <p>Html Css Javasciprt AWS</p>
+                      <p>JPA MYSQL SpringBoot</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="inner">
+        <div class="footer_icons">
+          <a class="footer_icon" href="https://github.com/kgm7642" target="_blank">
+            <img src="./images/git.png"  width="53px">
+          </a>
+          <a class="footer_icon" href="https://blog.naver.com/kgm7642" target="_blank">
+            <img src="./images/blog.png" width="53px">
+          </a>
+          <a class="footer_icon" href="https://www.instagram.com/kgm7642/" target="_blank">
+            <img src="./images/instagram.png" width="53px">
+          </a>
+          <a class="footer_icon" href="mailto:kgm7642@gmail.com">
+            <img src="./images/email.png"  width="53px">
+          </a>
+        </div>
+        <div class="footer_des">
+          <span id="date"></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- to top button -->
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
+  </body>
+</html>
