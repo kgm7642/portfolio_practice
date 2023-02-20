@@ -505,6 +505,7 @@ header .sub-menu ul.menu li a.moved:hover {
   font-weight: 900;
   font-size: 1.2rem;
 }
+
 .projects .project_containor .project_box .project_box_des_right .project_box_des_right_info .info_value{
   display: inline-block;
   vertical-align: bottom;
@@ -512,7 +513,6 @@ header .sub-menu ul.menu li a.moved:hover {
   font-weight: 400;
   font-size: 1rem;
 }
-
 
 footer {
   background-color: #E0FFFF;
@@ -524,6 +524,7 @@ footer {
 footer .footer_icons{
   margin: 0 0 1rem 0 ;
 }
+
 footer .footer_icons .footer_icon{
   position: relative;
   display: inline-block;
@@ -533,4 +534,9 @@ footer .footer_icons .footer_icon{
   margin: 0.5rem;
   border-radius: 2rem;
   cursor:pointer;
+}
+
+footer .footer_date {
+  font-weight: bold;
+  font-size: 14px;
 }
